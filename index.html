@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>grapes-lottie</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    html,body {margin:0; padding:0; height:100%; display:grid; place-items:center; background:#fff;}
+  </style>
+</head>
+<body>
+  <lottie-player
+    src="Grapes.json"  <!-- ← ここが超重要：大文字/小文字をファイル名と完全一致させる -->
+    background="transparent"
+    speed="1"
+    loop
+    autoplay
+    style="width: 320px; height: 320px;">
+  </lottie-player>
+</body>
+</html>
